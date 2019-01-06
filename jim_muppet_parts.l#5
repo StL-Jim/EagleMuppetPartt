@@ -2290,19 +2290,19 @@ manufactured by NKL®</description>
 <text x="-6.985" y="-2.54" size="1.27" layer="25" rot="R90">&gt;Name</text>
 <text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;Value</text>
 </package>
-<package name="G5V1" urn="urn:adsk.eagle:footprint:24007/1">
+<package name="G5V1" urn="urn:adsk.eagle:footprint:24007/1" locally_modified="yes">
 <description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
 1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
 <wire x1="-6.05" y1="-3.55" x2="6.05" y2="-3.55" width="0.2032" layer="21"/>
 <wire x1="6.05" y1="3.51" x2="-6.05" y2="3.51" width="0.2032" layer="21"/>
 <wire x1="-6.05" y1="-3.55" x2="-6.05" y2="3.51" width="0.2032" layer="21"/>
 <wire x1="6.05" y1="3.51" x2="6.05" y2="-3.55" width="0.2032" layer="21"/>
-<pad name="1" x="-5.08" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="-2.54" y="2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="-5.08" y="2.54" drill="0.8128" shape="long" rot="R90"/>
+<pad name="1" x="-5.08" y="-2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="-2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
+<pad name="6" x="5.08" y="2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
+<pad name="9" x="-2.54" y="2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
+<pad name="10" x="-5.08" y="2.54" drill="0.000253125" diameter="1.778" shape="long" rot="R90"/>
 <text x="-1.27" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
@@ -2568,7 +2568,7 @@ manufactured by NKL®</description>
 <packageinstance name="CRYSTAL-FILTER"/>
 </packageinstances>
 </package3d>
-<package3d name="G5V1" urn="urn:adsk.eagle:package:24341/1" type="box">
+<package3d name="G5V1" urn="urn:adsk.eagle:package:24341/1" locally_modified="yes" type="box">
 <description>RELAY
 1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
 <packageinstances>
@@ -4561,9 +4561,9 @@ Operational Amplifiers</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="G5V1" prefix="K">
+<deviceset name="RELAY-OMRON-G5V1" prefix="K">
 <description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-1 x switch, 0.5 A/125 V AC, 1 A/24 V DC , Omron</description>
+1 x switch, 0.5 A/125 V AC, 1A/12V DC , Omron</description>
 <gates>
 <gate name="1" symbol="K" x="0" y="0" addlevel="must"/>
 <gate name="2" symbol="U1" x="20.32" y="0" addlevel="always"/>

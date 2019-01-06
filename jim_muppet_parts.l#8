@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -678,9 +678,9 @@ Copal</description>
 <wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-2.5146" y1="0" x2="-2.8956" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
-<pad name="A" x="2.5146" y="0" drill="0.000253125" diameter="1.778" shape="octagon"/>
-<pad name="E" x="-2.5146" y="0" drill="0.000253125" diameter="1.778" shape="octagon"/>
-<pad name="S" x="0" y="-2.54" drill="0.000253125" diameter="1.778" shape="octagon"/>
+<pad name="A" x="2.5146" y="0" drill="0.000253125" diameter="2.54" shape="octagon"/>
+<pad name="E" x="-2.5146" y="0" drill="0.000253125" diameter="2.54" shape="octagon"/>
+<pad name="S" x="0" y="-2.54" drill="0.000253125" diameter="2.54" shape="octagon"/>
 <text x="-3.302" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.2766" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.048" y="-3.175" size="0.9906" layer="21" ratio="12">3</text>
