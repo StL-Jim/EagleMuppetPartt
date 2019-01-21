@@ -161,11 +161,11 @@
 <package name="CAP-MEDIUM-MUPPET">
 <description>Capacitor - Muppet style - Medium size SMT Pads
 120 square SMT pads</description>
-<wire x1="-4.775" y1="1.745" x2="4.775" y2="1.745" width="0.0508" layer="39"/>
+<wire x1="-6.045" y1="1.745" x2="4.775" y2="1.745" width="0.0508" layer="39"/>
 <wire x1="4.775" y1="1.745" x2="4.775" y2="-1.745" width="0.0508" layer="39"/>
-<wire x1="4.775" y1="-1.745" x2="-4.775" y2="-1.745" width="0.0508" layer="39"/>
-<wire x1="-4.775" y1="-1.745" x2="-4.775" y2="1.745" width="0.0508" layer="39"/>
-<smd name="1" x="-3.009" y="0" dx="3.048" dy="3.048" layer="1"/>
+<wire x1="4.775" y1="-1.745" x2="-6.045" y2="-1.745" width="0.0508" layer="39"/>
+<wire x1="-6.045" y1="-1.745" x2="-6.045" y2="1.745" width="0.0508" layer="39"/>
+<smd name="1" x="-4.279" y="0" dx="3.048" dy="3.048" layer="1"/>
 <smd name="2" x="3.009" y="0" dx="3.048" dy="3.048" layer="1"/>
 <text x="-3.683" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.937" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
@@ -2367,7 +2367,7 @@ grid 2.54 mm</description>
 <text x="3.175" y="0" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="TRANSFORMER_TWO_WIRE">
-<description>Transformer (having 3 windings) on a T50 Toroid</description>
+<description>Transformer (having 2 windings) on a Toroid</description>
 <wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="7.62" x2="-2.54" y2="6.985" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="5.715" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
@@ -3551,6 +3551,32 @@ grid 2.54 mm</description>
 <pin name="G" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="TRANSFORMER-2WIRE">
+<wire x1="0" y1="7.62" x2="1.27" y2="6.35" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="5.08" x2="1.27" y2="6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="7.62" y1="7.62" x2="6.35" y2="6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="7.62" y1="5.08" x2="6.35" y2="6.35" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="5.08" x2="6.35" y2="3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="7.62" y1="2.54" x2="6.35" y2="3.81" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="7.62" y1="2.54" x2="6.35" y2="1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="7.62" y1="0" x2="6.35" y2="1.27" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-2.54" y="7.62" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="10.16" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="0" y="16.51" radius="0" width="0.8128" layer="94"/>
+<circle x="7.62" y="16.51" radius="0" width="0.8128" layer="94"/>
+<circle x="0" y="6.35" radius="0" width="0.8128" layer="94"/>
+<circle x="7.62" y="6.35" radius="0" width="0.8128" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4831,25 +4857,18 @@ Source: http://www.fairchildsemi.com/pf/J3/J310.html</description>
 </devices>
 </deviceset>
 <deviceset name="TRANSFORMER_2WIRE" prefix="TX">
-<description>Transformer with 4 independent windings</description>
+<description>Transformer with 2 independent windings</description>
 <gates>
-<gate name="G$1" symbol="TRANSFORMER-QUADFILIAR" x="0" y="0"/>
+<gate name="G$1" symbol="TRANSFORMER-2WIRE" x="-2.54" y="7.62"/>
 </gates>
 <devices>
-<device name="" package="COILCRAFT_DA230X">
+<device name="TRANSFORMER_2WIRE" package="TRANSFORMER_TWO_WIRE">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
-<connect gate="G$1" pin="4" pad="P$4"/>
-<connect gate="G$1" pin="5" pad="P$5"/>
-<connect gate="G$1" pin="6" pad="P$6"/>
-<connect gate="G$1" pin="7" pad="P$7"/>
-<connect gate="G$1" pin="8" pad="P$8"/>
+<connect gate="G$1" pin="1" pad="C1A"/>
+<connect gate="G$1" pin="2" pad="C1B"/>
+<connect gate="G$1" pin="5" pad="C2A"/>
+<connect gate="G$1" pin="6" pad="C2B"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37581/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
