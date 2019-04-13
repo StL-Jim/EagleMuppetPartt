@@ -2438,6 +2438,7 @@ grid 2.54 mm</description>
 <text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
 <circle x="-3.81" y="2.54" radius="2.05240625" width="1.27" layer="21"/>
 <circle x="-3.81" y="2.54" radius="2.921" width="0.127" layer="21"/>
+<pad name="P$1" x="-3.81" y="2.54" drill="0.6" shape="square"/>
 </package>
 </packages>
 <packages3d>

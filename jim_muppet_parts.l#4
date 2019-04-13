@@ -4928,6 +4928,14 @@ Source: http://www.fairchildsemi.com/pf/J3/J310.html</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="PROBE_POINT_1" package="PROBE_POINT_1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="BATTERY" prefix="BAT" uservalue="yes">

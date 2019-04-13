@@ -3605,7 +3605,7 @@ grid 2.54 mm</description>
 <symbol name="PROBE-POINT1">
 <circle x="0" y="0" radius="2.54" width="2.032" layer="94"/>
 <pin name="P$1" x="2.54" y="0" length="point"/>
-<text x="-1.27" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="BATTERY">

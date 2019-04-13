@@ -2433,6 +2433,12 @@ grid 2.54 mm</description>
 <text x="-4.445" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.635" y1="-1.27" x2="0" y2="1.27" layer="21"/>
 </package>
+<package name="PROBE_POINT_1">
+<text x="-5.4356" y="-2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.4356" y="-6.35" size="1.778" layer="25" ratio="10">&gt;VALUE</text>
+<circle x="-3.81" y="2.54" radius="2.05240625" width="1.27" layer="21"/>
+<circle x="-3.81" y="2.54" radius="2.921" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TO18" urn="urn:adsk.eagle:package:28728/1" locally_modified="yes" type="box">
