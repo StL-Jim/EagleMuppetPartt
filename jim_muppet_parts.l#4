@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1836,12 +1836,9 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <package name="POTENTIOMETER" urn="urn:adsk.eagle:footprint:22673/1" locally_modified="yes">
 <description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
 Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
-<wire x1="-8.35" y1="-3.7" x2="8.35" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-8.35" y1="-5.7" x2="-7.25" y2="-5.7" width="0.2032" layer="21"/>
-<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="-5.7" width="0.2032" layer="21"/>
-<wire x1="-7.25" y1="-5.7" x2="-7.25" y2="-3.8" width="0.2032" layer="21"/>
-<wire x1="-8.35" y1="-1.7" x2="8.35" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="-8.35" y1="5.4" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-5.81" y1="-3.7" x2="5.81" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-5.81" y1="-2.97" x2="5.81" y2="-2.97" width="0.2032" layer="21"/>
+<wire x1="-5.81" y1="4.13" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
 <wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
@@ -1850,8 +1847,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
 <wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
-<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="5.4" width="0.2032" layer="21"/>
-<wire x1="8.35" y1="-3.7" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-5.81" y1="-3.7" x2="-5.81" y2="4.13" width="0.2032" layer="21"/>
+<wire x1="5.81" y1="-3.7" x2="5.81" y2="4.13" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
@@ -1864,11 +1861,11 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
 <wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
 <wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
-<pad name="1" x="-6.016" y="-0.889" drill="0.000253125" diameter="4.445" shape="offset" rot="R90"/>
-<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="4.445" shape="offset" rot="R90"/>
-<pad name="3" x="6.27" y="-0.889" drill="0.000253125" diameter="4.445" shape="offset" rot="R90"/>
-<text x="-7.874" y="6.096" size="1.27" layer="25">&gt;NAME</text>
-<text x="1.397" y="6.223" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="-3.476" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
+<pad name="2" x="0.127" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
+<pad name="3" x="3.73" y="-0.889" drill="0.000253125" diameter="3.175" shape="offset" rot="R90"/>
+<text x="-7.874" y="4.826" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.397" y="4.953" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="BNC-50OHM" urn="urn:adsk.eagle:footprint:6170/1" locally_modified="yes">
 <description>&lt;b&gt;BNC CONNECTOR&lt;/b&gt;&lt;p&gt;
@@ -2704,6 +2701,11 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <package name="PAD-RECTANGLE-200MIL">
 <description>Rounded rectangle solder pad - 200MIL</description>
 <pad name="PAD$1" x="0" y="0" drill="0.000253125" diameter="5.08" shape="long"/>
+</package>
+<package name="PAD-2PIN-RECTANGLE-50MIL">
+<description>3-Pin - Rounded rectangle solder pads - 50MIL each</description>
+<pad name="PAD$1" x="-0.635" y="0" drill="0.000253125" diameter="1.27" shape="offset"/>
+<pad name="PAD$2" x="0.635" y="0" drill="0.000253125" diameter="1.27" shape="offset" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -3911,7 +3913,7 @@ grid 2.54 mm</description>
 <pin name="D7" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="D8" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="D9" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="RAW" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="VIN" x="-22.86" y="-20.32" visible="pin" length="middle"/>
 <pin name="GND" x="-22.86" y="-17.78" visible="pin" length="middle"/>
 <pin name="RST" x="-22.86" y="-15.24" visible="pin" length="middle"/>
 <pin name="5.5V" x="-22.86" y="-12.7" visible="pin" length="middle"/>
@@ -3975,7 +3977,6 @@ grid 2.54 mm</description>
 <text x="-5.08" y="-5.08" size="1.27" layer="94">Solder Pad</text>
 <pin name="P$1" x="-5.08" y="0" length="point" rot="R180"/>
 <pin name="P$2" x="5.08" y="0" length="point"/>
-<pin name="P$3" x="0" y="2.54" length="point" rot="R90"/>
 </symbol>
 <symbol name="PAD-1PIN-SOLDER">
 <description>&lt;h1&gt;Rounded rectangle solder pad&lt;/h1&gt;&lt;hr&gt;
@@ -5399,11 +5400,11 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <connect gate="G$1" pin="D9" pad="D9"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="GND2" pad="GND1"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RST1" pad="RST1"/>
 <connect gate="G$1" pin="RX1" pad="RX1"/>
 <connect gate="G$1" pin="TX0" pad="TX0"/>
+<connect gate="G$1" pin="VIN" pad="RAW"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5555,6 +5556,27 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <device name="200MIL" package="PAD-RECTANGLE-200MIL">
 <connects>
 <connect gate="G$1" pin="P$1" pad="PAD$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAD-2PIN-RECTANGLE">
+<description>&lt;h2&gt;3 Pin - Rounded Rectangle Solder Pad&lt;/h2&gt;
+&lt;li&gt;&lt;b&gt;50MIL&lt;/li&gt;
+&lt;b&gt;100MIL&lt;/li&gt;
+&lt;b&gt;150MIL&lt;/li&gt;
+&lt;b&gt;200MIL&lt;/li&gt;&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PAD-2PIN-SOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-2PIN-RECTANGLE-50MIL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD$1"/>
+<connect gate="G$1" pin="P$2" pad="PAD$2"/>
 </connects>
 <technologies>
 <technology name=""/>
